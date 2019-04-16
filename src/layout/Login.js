@@ -29,13 +29,13 @@ const styles = theme => ({
     minHeight: '100vh',
     alignItems: 'center',
     justifyContent: 'flex-start',
-    background: 'url(https://source.unsplash.com/random/1600x900)',
+    background: 'url(https://images.wallpaperscraft.com/image/galaxy_earth_network_126341_3840x2400.jpg)',
     backgroundRepeat: 'no-repeat',
     backgroundSize: 'cover',
   },
   card: {
     minWidth: 300,
-    marginTop: '6em',
+    marginTop: '2em',
   },
   avatar: {
     margin: '1em',
@@ -88,6 +88,7 @@ class Login extends Component {
     const { classes, handleSubmit, isLoading, translate } = this.props;
     return (
       <div className={classes.main}>
+        <div style={{color:"white", marginTop: "2em"}}><img src="http://apconnect.io/images/ac_text_white.png" /></div>
         <Card className={classes.card}>
           <div className={classes.avatar}>
             <Avatar className={classes.icon}>
